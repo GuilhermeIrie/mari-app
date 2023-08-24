@@ -7,16 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          OEEEEEEEEEEEEEOoeoeoeoe
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <img src={'https://media.tenor.com/ABeVmJ3y2WQAAAAM/cat-dancing-meme-dancing.gif'} alt={'cat dancing'}/>
       </header>
     </div>
   );
