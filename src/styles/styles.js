@@ -12,7 +12,7 @@ const fadeIn = keyframes`
 
 export const StyledRoot = styled('div')(() => ({
   height: '100%',
-  display: 'flex',
+  display: 'flex',  
   alignItems: 'center',
   padding: '16px',
   justifyContent: 'center',
@@ -36,11 +36,13 @@ export const StyledDialog = styled(Dialog)(() => ({
   '& .MuiDialog-paper':{
     backgroundColor: '#ffc2d1',
     border: '1px solid #fb6f92',
-    width: '275px',
+    width: '250px',
+    overflow: 'hidden',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    textAlign: 'center'
   }
 }));
 

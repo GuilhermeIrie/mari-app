@@ -6,7 +6,7 @@ import { Context } from "../App";
 const Game = () => { 
   const {gameData} = useContext(Context);
   return (    
-    <StyledRoot >          
+    <StyledRoot>          
       <StyledLink to={`/game/${gameData.stage}`}>
         <Typography fontWeight={800} variant="h5">🌷 Play 🌷</Typography>
       </StyledLink>
