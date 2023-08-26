@@ -9,7 +9,7 @@ import StageQuatro from "../components/StageQuatro";
 import StageCinco from "../components/StageCinco";
 import StageSeis from "../components/StageSeis";
 import { StyledContainer } from "../components/StageUm/styles";
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 
 const GameStages = () => {
@@ -58,6 +58,11 @@ const GameStages = () => {
             As vezes estou triste e as vezes contente, dentro de mim está seu presente yaaaaaaaaaaaaaaay <br/> Parabensssss <br/> 💓 💕 💖 💗 💞 💘 
         </Typography>
         <img src={'https://media.tenor.com/-spL2ztCyLcAAAAM/dance-cat.gif'} alt={'gato da reivii'} />
+        <Link to='/' >
+          <Button variant="contained" color="secondary" sx={{ color: '#fceef2', marginTop: '16px'}}  >            
+          💚 💛 🧡 💜
+          </Button>
+        </Link>
     </StyledContainer>
     }
   }
