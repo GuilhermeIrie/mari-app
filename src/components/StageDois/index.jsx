@@ -12,7 +12,7 @@ const StageDois = ({nextStage, gameData, getHit}) => {
 
     const handleResult = () => {
         setLoading(false)
-        if(input ==='chikorita') {
+        if(input.toLowerCase() ==='chikorita') {
             nextStage()
         } else {
             getHit()

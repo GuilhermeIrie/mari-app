@@ -12,7 +12,7 @@ const StageQuatro = ({nextStage, gameData, getHit}) => {
 
     const handleResult = () => {
         setLoading(false)
-        if(input ==='batata') {
+        if(input.toLowerCase() ==='batata') {
             nextStage()
         } else {
             getHit()

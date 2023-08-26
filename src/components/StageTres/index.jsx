@@ -12,7 +12,7 @@ const StageTres = ({nextStage, gameData, getHit}) => {
 
     const handleResult = () => {
         setLoading(false)
-        if(input ==='4000') {
+        if(input.toLowerCase() ==='4000') {
             nextStage()
         } else {
             getHit()

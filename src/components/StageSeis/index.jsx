@@ -12,7 +12,7 @@ const StageSeis = ({nextStage, gameData, getHit}) => {
 
     const handleResult = () => {
         setLoading(false)
-        if(input ==='03030') {
+        if(input.toLowerCase() ==='03030') {
             nextStage()
         } else {
             getHit()
